@@ -48,6 +48,7 @@ export function Notes(){
     });
     window.alert("Editado com sucesso!")
     setInputValue("")
+    setSelectecNote()
     getNotes()
   }
 
