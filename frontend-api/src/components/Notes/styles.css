@@ -1,0 +1,111 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+}
+.notes{
+  width: 83%;
+}
+
+.note-description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  border-bottom: 0;
+  border-radius: .5rem .5rem 0 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.note-button{
+
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding: .5rem 0;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.fields{
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button{
+  border:0;
+  background: #4b9e64;
+  border-radius: 0 .5rem .5rem 0;
+  transition: .2s;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  width: 50px;
+
+}
+
+input{
+  border: solid 3px #4b9e64;
+  outline: none;
+  height: 2rem;
+  margin-bottom: 1rem;
+  height: 50px;
+  border-radius: .5rem 0 0 .5rem;
+  padding: 0 1rem;
+  font-size: 1.3rem;
+}
+
+select{
+  height: 50px;
+  border-radius: .5rem;
+  padding: 0 1rem;
+  margin-right: 2rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor:pointer;
+  outline: none;
+  border:0;
+}
+
+select.list1 option .green{
+  background: #B5EAEA;
+}
+
+button:hover{
+  filter: brightness(1.7);
+}
+
+.icons{
+  cursor:pointer;
+}
+
+ul{
+  margin-top: 2rem;;
+}
+ul li{
+  list-style: none;
+  margin-top: 2rem;
+}
+
+ul li p{
+  display: inline-block;
+}
+
+li{
+  padding: 2rem;
+  border-radius: .5rem;
+}
+
+button{
+  cursor:pointer
+}
